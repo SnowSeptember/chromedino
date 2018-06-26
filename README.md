@@ -17,7 +17,7 @@ var over=Runner.prototype.gameOver;
 Runner.prototype.gameOver = ()=>{};
 
 # Code phóng to thu nhỏ con khủng long
-scale = 2; // Sửa tỉ lệ tại đây
+scale = 2; //Sửa tỉ lệ tại đây
 Runner.instance_.tRex.config.HEIGHT_REAL = Runner.instance_.tRex.config.HEIGHT;
 Runner.instance_.tRex.config.WIDTH_REAL = Runner.instance_.tRex.config.WIDTH;
 Runner.instance_.tRex.config.WIDTH_DUCK_REAL =
